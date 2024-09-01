@@ -73,7 +73,7 @@ body {
 }
 
 .hero .herotext h1 {
-  font-size: 5em;
+  font-size: 3em;
   margin-top: 5rem;
   color: var(--text);
 }
@@ -194,7 +194,6 @@ body {
   padding: 1.5rem 8%;
   color: var(--text);
   font-size: 3em;
-  margin-top: 1rem;
 }
 
 .content2 .img-container {
@@ -207,7 +206,7 @@ body {
   flex-shrink: 0;
   margin-top: 5rem;
   justify-content: center;
-  animation: infinite-scroll 5s linear infinite;
+  animation: infinite-scroll 7.5s linear infinite;
 }
 
 .content2 .tools {
@@ -215,7 +214,7 @@ body {
   flex-shrink: 0;
   margin-top: 5rem;
   justify-content: center;
-  animation: infinite-scroll 5s linear infinite;
+  animation: infinite-scroll 7.5s linear infinite;
 }
 
 /* Infinite Scroll Animation */
