@@ -88,7 +88,6 @@ body {
   position: relative;
   font-size: 1.5rem;
   margin-top: 1rem;
-  font-weight: 400;
   color: #8b5fbf;
   white-space: nowrap;
 }
@@ -152,7 +151,7 @@ body {
 .content1 .about p {
   font-size: 1.5rem;
   margin-top: 3rem;
-  font-weight: 200;
+  font-weight: 300;
   text-align: justify;
 }
 
@@ -173,7 +172,7 @@ body {
 .content1 .edu p {
   font-size: 1.5rem;
   margin-top: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   text-align: justify;
 }
 
@@ -289,7 +288,7 @@ body {
 
 .projects .cardrow .card p {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   text-align: justify;
   margin-bottom: 1rem;
 }
@@ -299,6 +298,41 @@ body {
 }
 
 /* Projects Section */
+
+/* Contact Section */
+.contacts {
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  padding: 1.5rem 8%;
+  text-align: center;
+}
+
+.contacts h1 {
+  font-size: 5em;
+  margin-top: 20rem;
+}
+
+.contacts h2 {
+  font-size: 2.5em;
+  margin-top: 3rem;
+  color: var(--text);
+}
+
+.contacts h2 span {
+  background: linear-gradient(to right, #8b5fbf, #0091ad);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.contacts p {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  font-weight: 300;
+  color: var(--text);
+}
+
+/* Contact Section */
 
 /* Footer */
 .footer {
